@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('🚀 Node.js CI/CD App is running!');
+  res.send('Webhook working 🚀');
 });
 
 app.listen(PORT, () => {
