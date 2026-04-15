@@ -14,7 +14,7 @@ pipeline {
             steps {
                 git branch: 'main',
                 credentialsId: 'github-credentials',
-                url: 'https://github.com/<your-username>/<repo>.git'
+                url: 'https://github.com/JEYAPRAKASH21/node-ci-cd-app.git'
             }
         }
 
